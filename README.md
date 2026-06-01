@@ -1,43 +1,46 @@
-<div align="center">
+<div align="center" dir="rtl">
   <img src="app/src/main/res/mipmap-xxhdpi/ic_launcher.png" width="128" height="128" alt="Logo">
-  <h1>🚀 ArvanScanner Android</h1>
-  <p><strong>Ultra-lightweight, extremely fast IP scanner for ArvanCloud CDN</strong></p>
+  <h1>🚀 آروان اسکنر (نسخه اندروید)</h1>
+  <p><strong>اسکنر آی‌پی فوق‌العاده سبک و بی‌نهایت سریع برای CDN کلود آروان</strong></p>
 </div>
 
 <hr>
 
-## ✨ Features
+<div dir="rtl">
 
-- ⚡ **Extremely Fast:** Uses direct raw TCP socket connections for maximum performance.
-- 🪶 **Ultra Lightweight:** The final APK size is **less than 15 KB**! No bloated frameworks.
-- 🎨 **Modern & Responsive UI:** Beautiful Web UI integrated smoothly via Android WebView.
-- 🔎 **Advanced Ping Modes:** Supports raw `TCP` ping and precise `TLS` Handshake ping with custom SNI support.
-- 🔋 **Battery Efficient:** Pure Java native threads, consuming almost zero resources.
-- 📱 **Universal Compatibility:** A single APK runs natively on all CPU architectures (arm32, arm64, x86, x64) without increasing file size.
+## ✨ ویژگی‌ها
 
-## 📸 Screenshots
+- ⚡ **بی‌نهایت سریع:** استفاده از اتصالات خام سوکت (TCP) برای دستیابی به بالاترین سرعت ممکن در پینگ.
+- 🪶 **فوق‌العاده سبک:** حجم نهایی فایل نصبی (APK) **کمتر از ۵۰ کیلوبایت** است! هیچ فریم‌ورک سنگینی در برنامه وجود ندارد.
+- 🎨 **رابط کاربری مدرن:** طراحی چشم‌نواز و واکنش‌گرا (Responsive) با استفاده از تکنولوژی‌های وب (WebView).
+- 🔎 **حالت‌های مختلف اسکن:** پشتیبانی از پینگ خام `TCP` (برای سرعت) و پینگ دقیق `TLS Handshake` (با قابلیت تنظیم دامنه SNI).
+- 🔋 **مصرف باتری صفر:** کدهای جاوا (Java Native) مستقیماً روی ماشین مجازی اندروید اجرا می‌شوند و مصرف منابع دستگاه نزدیک به صفر است.
+- 📱 **سازگاری کامل با پردازنده‌ها:** بدون نیاز به فایل‌های اضافی، همین یک فایل APK روی تمامی معماری‌های پردازنده (ARM32, ARM64, x86) به صورت بومی اجرا می‌شود.
 
-*(You can add screenshots here)*
+## 📸 تصاویر محیط برنامه
 
-## 🛠️ Requirements
+*(شما می‌توانید تصاویر محیط برنامه را در اینجا قرار دهید)*
 
-- Android Studio or Gradle CLI
-- Android SDK (API 21 to 34+)
+## 🛠️ پیش‌نیازها برای کامپایل
 
-## 🚀 How to Build
+- Android Studio یا Gradle CLI
+- Android SDK (API 21 تا 34)
 
-Clone the repository and build using Gradle wrapper:
+## 🚀 راهنمای بیلد (ساخت برنامه)
+
+مخزن را کلون کنید و با استفاده از دستورات زیر فایل خروجی را بسازید:
 
 ```bash
 git clone https://github.com/ramin-mahmoodi/ArvanScanner-Android.git
 cd ArvanScanner-Android
 
-# Build Release APK
+# ساخت نسخه نهایی و بهینه‌شده
 ./gradlew assembleRelease
 ```
 
-The compiled APK will be generated at:
+فایل نصب (APK) در مسیر زیر ساخته خواهد شد:
 `app/build/outputs/apk/release/app-release.apk`
 
 ---
-*Developed with ❤️*
+*توسعه داده شده با ❤️*
+</div>
